@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4mR-S2-zda">
+            <objects>
+                <viewController id="HYu-Kg-yqW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SWM-97-XBj"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfs-YE-RUS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="68z-9g-FHc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MMbackground-hd.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CFG-rM-33Y">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fg-UK-CRp">
+                                <rect key="frame" x="0.0" y="305" width="320" height="53"/>
+                                <state key="normal" title="Button" image="mainmenu_btn1-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsd-M5-uRu">
+                                <rect key="frame" x="0.0" y="366" width="320" height="53"/>
+                                <state key="normal" title="Button" image="mainmenu_btn2-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkA-jQ-8W6">
+                                <rect key="frame" x="0.0" y="427" width="320" height="53"/>
+                                <state key="normal" title="Button" image="mainmenu_btn3-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ap-Iz-pfR">
+                                <rect key="frame" x="0.0" y="488" width="320" height="53"/>
+                                <state key="normal" title="Button" image="mainmenu_btn4-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yjV-lk-10Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="383" y="337"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ai9-P0-XlN">
+            <objects>
+                <viewController id="dCu-XY-JSP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4q2-7i-mAv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lkg-TB-jU2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vNs-Lg-G9b">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GTbackground-hd.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dGL-am-m1N">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWx-mD-aL8">
+                                <rect key="frame" x="0.0" y="157" width="320" height="70"/>
+                                <state key="normal" title="Button" image="gametype_btn2-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqe-9E-vDN">
+                                <rect key="frame" x="0.0" y="235" width="320" height="70"/>
+                                <state key="normal" title="Button" image="gametype_btn3-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G48-qh-O8B">
+                                <rect key="frame" x="0.0" y="313" width="320" height="70"/>
+                                <state key="normal" title="Button" image="gametype_btn4-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egl-Yt-Cc0">
+                                <rect key="frame" x="0.0" y="391" width="320" height="70"/>
+                                <state key="normal" title="Button" image="gametype_btn5-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdx-Sg-YxR">
+                                <rect key="frame" x="0.0" y="520" width="320" height="48"/>
+                                <state key="normal" title="Button" image="gametype_backbtn-hd-hd.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBY-Xc-RzY">
+                                <rect key="frame" x="0.0" y="79" width="320" height="70"/>
+                                <state key="normal" title="Button" image="gametype_btn1-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Xv-Dq-Fje" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840" y="337"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MgK-sS-zDa">
+            <objects>
+                <viewController id="osR-as-eN6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vfa-vC-Emf"/>
+                        <viewControllerLayoutGuide type="bottom" id="lbk-RQ-qkx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LYK-wb-yGS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gbackground-hd.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oeg-HR-FsO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AH1-9K-QgP">
+                                <rect key="frame" x="0.0" y="458" width="320" height="55"/>
+                                <state key="normal" image="gamescreen_btn3-hd.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zba-os-kUC">
+                                <rect key="frame" x="0.0" y="513" width="320" height="55"/>
+                                <state key="normal" image="gamescreen_btn4-hd.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JzK-c0-U3R">
+                                <rect key="frame" x="0.0" y="403" width="320" height="55"/>
+                                <state key="normal" image="gamescreen_btn2-hd.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where does/did Brian Kelly go to highschool?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhu-5S-unq">
+                                <rect key="frame" x="34" y="122" width="256" height="158"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4p-Da-5uG">
+                                <rect key="frame" x="0.0" y="348" width="320" height="55"/>
+                                <state key="normal" image="gamescreen_btn1-hd.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h9r-Oc-17T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="619" y="1063"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lcy-8g-UXe">
+            <objects>
+                <viewController id="RYi-V4-GEM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VDm-pd-Hf4"/>
+                        <viewControllerLayoutGuide type="bottom" id="di4-hN-prK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dFj-54-NLW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GSbackground-hd.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lVd-0J-f1k">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2i-gC-Vbu">
+                                <rect key="frame" x="0.0" y="332" width="320" height="67"/>
+                                <state key="normal" image="recap_btn1-hd.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kG8-ji-adw">
+                                <rect key="frame" x="0.0" y="403" width="320" height="55"/>
+                                <state key="normal" image="recap_btn2-hd.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="se8-cf-sGT">
+                                <rect key="frame" x="0.0" y="458" width="320" height="55"/>
+                                <state key="normal" image="recap_btn3-hd.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPt-3a-glr">
+                                <rect key="frame" x="0.0" y="513" width="320" height="55"/>
+                                <state key="normal" image="recap_btn4-hd.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your score was 11257! You got 5 out of 10 quiz questions right. Are you sure these are really your friends?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5e-3p-iU9">
+                                <rect key="frame" x="32" y="122" width="256" height="158"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NtX-Vb-qgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1101" y="1063"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eoX-HD-2ZG">
+            <objects>
+                <viewController id="EAo-ZW-ZRm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QrT-m0-RMr"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Pe-6p-6mb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tky-2r-QrI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background-hd.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dFq-sd-hf0">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSU-TA-DwO">
+                                <rect key="frame" x="0.0" y="520" width="320" height="48"/>
+                                <state key="normal" title="Button" image="gametype_backbtn-hd-hd.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dYs-Dp-Ufx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1593" y="1063"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GSbackground-hd.jpg" width="640" height="960"/>
+        <image name="GTbackground-hd.jpg" width="640" height="960"/>
+        <image name="Gbackground-hd.jpg" width="640" height="960"/>
+        <image name="MMbackground-hd.jpg" width="640" height="960"/>
+        <image name="background-hd.jpg" width="640" height="960"/>
+        <image name="gamescreen_btn1-hd.jpg" width="640" height="120"/>
+        <image name="gamescreen_btn2-hd.jpg" width="640" height="120"/>
+        <image name="gamescreen_btn3-hd.jpg" width="640" height="120"/>
+        <image name="gamescreen_btn4-hd.jpg" width="640" height="120"/>
+        <image name="gametype_backbtn-hd-hd.jpg" width="1280" height="166"/>
+        <image name="gametype_btn1-hd.png" width="640" height="134"/>
+        <image name="gametype_btn2-hd.png" width="640" height="134"/>
+        <image name="gametype_btn3-hd.png" width="640" height="134"/>
+        <image name="gametype_btn4-hd.png" width="640" height="134"/>
+        <image name="gametype_btn5-hd.png" width="640" height="134"/>
+        <image name="mainmenu_btn1-hd.png" width="640" height="106"/>
+        <image name="mainmenu_btn2-hd.png" width="640" height="106"/>
+        <image name="mainmenu_btn3-hd.png" width="640" height="106"/>
+        <image name="mainmenu_btn4-hd.png" width="640" height="106"/>
+        <image name="recap_btn1-hd.png" width="640" height="130"/>
+        <image name="recap_btn2-hd.jpg" width="640" height="100"/>
+        <image name="recap_btn3-hd.jpg" width="640" height="100"/>
+        <image name="recap_btn4-hd.jpg" width="640" height="100"/>
+    </resources>
+</document>

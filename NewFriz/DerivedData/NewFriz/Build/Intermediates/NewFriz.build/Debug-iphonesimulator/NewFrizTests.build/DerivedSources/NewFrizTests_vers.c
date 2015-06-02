@@ -1,0 +1,1 @@
+ const unsigned char NewFrizTestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:NewFrizTests  PROJECT:NewFriz-1" "\n"; const double NewFrizTestsVersionNumber __attribute__ ((used)) = (double)1.;

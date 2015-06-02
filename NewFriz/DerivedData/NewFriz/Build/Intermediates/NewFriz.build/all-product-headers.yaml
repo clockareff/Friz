@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/colinlockareff/Desktop/Friz/NewFriz/DerivedData/NewFriz/Build/Products/Debug-iphonesimulator/NewFriz.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NewFriz-Swift.h",
+          'external-contents': "/Users/colinlockareff/Desktop/Friz/NewFriz/DerivedData/NewFriz/Build/Products/Debug-iphonesimulator/NewFriz.framework/Headers/NewFriz-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "NewFriz.h",
+          'external-contents': "/Users/colinlockareff/Desktop/Friz/NewFriz/NewFriz/NewFriz.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/colinlockareff/Desktop/Friz/NewFriz/DerivedData/NewFriz/Build/Products/Debug-iphonesimulator/NewFriz.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/colinlockareff/Desktop/Friz/NewFriz/DerivedData/NewFriz/Build/Products/Debug-iphonesimulator/NewFriz.framework/Modules/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

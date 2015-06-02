@@ -1,0 +1,6 @@
+framework module NewFriz {
+  umbrella header "NewFriz.h"
+
+  export *
+  module * { export * }
+}
